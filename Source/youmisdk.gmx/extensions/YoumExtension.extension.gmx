@@ -61,13 +61,15 @@
       <ProxyFiles/>
       <functions>
         <function>
-          <name>ym_ini</name>
+          <name>ym_spot_ini</name>
           <externalName>Youmi_ini</externalName>
           <kind>11</kind>
-          <help>ym_ini()</help>
+          <help>ym_spot_ini( id , key , Official )</help>
           <returnType>2</returnType>
-          <argCount>1</argCount>
+          <argCount>3</argCount>
           <args>
+            <arg>1</arg>
+            <arg>1</arg>
             <arg>2</arg>
           </args>
         </function>
@@ -87,6 +89,48 @@
           <externalName>Youmi_spot_show</externalName>
           <kind>11</kind>
           <help>ym_spot_show()</help>
+          <returnType>2</returnType>
+          <argCount>0</argCount>
+          <args/>
+        </function>
+        <function>
+          <name>ym_banner_show</name>
+          <externalName>Youmi_banner_show</externalName>
+          <kind>11</kind>
+          <help>ym_banner_show()</help>
+          <returnType>2</returnType>
+          <argCount>0</argCount>
+          <args/>
+        </function>
+        <function>
+          <name>ym_banner_show_at</name>
+          <externalName>Youmi_banner_showAt</externalName>
+          <kind>11</kind>
+          <help>ym_banner_show_at(x,y)</help>
+          <returnType>2</returnType>
+          <argCount>2</argCount>
+          <args>
+            <arg>2</arg>
+            <arg>2</arg>
+          </args>
+        </function>
+        <function>
+          <name>ym_banner_move</name>
+          <externalName>Youmi_banner_move</externalName>
+          <kind>11</kind>
+          <help>ym_banner_move(x,y)</help>
+          <returnType>2</returnType>
+          <argCount>2</argCount>
+          <args>
+            <arg>2</arg>
+            <arg>2</arg>
+          </args>
+        </function>
+        <function>
+          <name>ym_banner_destroy</name>
+          <externalName>Youmi_banner_destroy</externalName>
+          <kind>11</kind>
+          <help>ym_banner_destroy( )</help>
           <returnType>2</returnType>
           <argCount>0</argCount>
           <args/>

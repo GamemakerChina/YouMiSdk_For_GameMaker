@@ -8,14 +8,28 @@
     <extension index="0">extensions\YoumExtension</extension>
   </NewExtensions>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\sprite0</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_cn</font>
+  </fonts>
   <objects name="objects">
-    <object>objects\object0</object>
+    <object>objects\obj_ym_ini</object>
+    <objects name="spot">
+      <object>objects\obj_spot_show</object>
+    </objects>
+    <objects name="banner">
+      <object>objects\obj_banner_show</object>
+      <object>objects\obj_banner_move</object>
+      <object>objects\obj_banner_gone</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\rm_ini</room>
+    <room>rooms\rm_ad_show</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
